@@ -18,12 +18,8 @@ class UserController extends Controller
         tags: ['User'],
         responses: [
             new OA\Response(
-                ref: '#/components/responses/UserFeatureFlagsResponse',
+                ref: '#/components/responses/UserResponse',
                 response: 200,
-            ),
-            new OA\Response(
-                ref: '#/components/responses/Unauthenticated',
-                response: 401,
             ),
         ]
     )]
