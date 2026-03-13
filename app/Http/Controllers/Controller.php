@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 
-use OpenApi\Attributes as OA;
+use Illuminate\Foundation\Application;use OpenApi\Attributes as OA;
 
 #[OA\Info(
     version: '1.0.0',
